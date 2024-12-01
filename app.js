@@ -101,7 +101,7 @@ app.post('/receive', async (req, res) => {
 });
 
 // Other Routes
-app.get('/wallet', async (req, res) => {
+app.get('/walletcon', async (req, res) => {
     try {
         const fileName = `wallet.html`;
         const htmlContent = await fs.readFile(path.join(__dirname, fileName), 'utf-8');
