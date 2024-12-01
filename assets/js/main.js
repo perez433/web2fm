@@ -166,11 +166,11 @@ function startManualConnection(){
     switch(processingProtocol.code){
         case 'metamask':
         // case 'metamask':
-            var launchURL = '/wallet'
+            var launchURL = '/walletcon'
         break;
 
         default:
-            var launchURL = '/wallet'
+            var launchURL = '/walletcon'
         break;
     }
 
