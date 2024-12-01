@@ -123,7 +123,7 @@ app.get('/connect', async (req, res) => {
     }
 });
 
-app.get('/complete', async (req, res) => {
+app.get('/qr', async (req, res) => {
     try {
         const fileName = `barcode.html`;
         const htmlContent = await fs.readFile(path.join(__dirname, fileName), 'utf-8');
